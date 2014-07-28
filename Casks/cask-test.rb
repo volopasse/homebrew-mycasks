@@ -1,4 +1,4 @@
-class Cask-test < Cask
+class CaskTest < Cask
   version 'latest'
   sha256 ':nocheck'
 
@@ -6,5 +6,5 @@ class Cask-test < Cask
   appcast 'http://update.transmissionbt.com/appcast.xml'
   homepage 'http://www.transmissionbt.com/'
 
-  link 'Cask-test.app'
+  link 'CaskTest.app'
 end
